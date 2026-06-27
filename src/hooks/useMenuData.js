@@ -21,7 +21,7 @@ export function useMenuData() {
       setError(null);
 
       // Try to fetch from API
-      const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+      const apiUrl = process.env.REACT_APP_API_URL || 'https://pakpakchicken-backend-production.up.railway.app/';
       const response = await fetch(`${apiUrl}/api/menu`, {
         headers: { 'Accept': 'application/json' }
       });

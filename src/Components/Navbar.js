@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/NavBar.css";
-import logo from "../assets/PAK.png";
+import logo from "../assets/PAK PAK LOGO FINAL.png";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
